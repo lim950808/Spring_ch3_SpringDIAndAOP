@@ -1,3 +1,4 @@
+/*
 package com.fastcampus.ch3;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -61,7 +62,7 @@ class Car{
 
 public class SpringDiTest {
     public static void main(String[] args) {
-        ApplicationContext ac = new GenericXmlApplicationContext("config1.xml");
+        ApplicationContext ac = new GenericXmlApplicationContext("config.xml");
 //        Car car = (Car) ac.getBean("car"); //byName. 아래와 같은 문장(형변환 생략)
         Car car = ac.getBean("car", Car.class); //byName
 //        Car car2 = (Car) ac.getBean(Car.class); //byType
@@ -79,3 +80,5 @@ public class SpringDiTest {
 
     }
 }
+
+ */
